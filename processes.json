@@ -1,0 +1,19 @@
+{
+  "apps": [{
+    "name"            : "SerialPort",
+    "script"          : "./serial.js",
+    "exec_mode"       : "fork",
+    "out_file"        : "logs/SerialPort-logs.log",
+    "log_date_format" : "DD-MM-YYYY HH:mm Z",
+    "ignoreWatch"     : ["[\\/\\\\]\\./", "node_modules", ".git", "logs"],
+    "watch": false
+  }, {
+    "name"            : "syncApp",
+    "script"          : "./sync.js",
+    "exec_mode"       : "fork",
+    "out_file"        : "logs/syncApp-logs.log",
+    "log_date_format" : "DD-MM-YYYY HH:mm Z",
+    "ignoreWatch"     : ["[\\/\\\\]\\./", "node_modules", ".git", "logs"],
+    "watch": false
+  }]
+}

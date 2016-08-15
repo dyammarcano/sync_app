@@ -1,0 +1,19 @@
+{
+  "name": "serial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Dyam Marcano <dyam.marcano@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "delayed": "^1.0.1",
+    "js-crc": "^0.1.0",
+    "moment": "^2.14.1",
+    "request": "^2.74.0",
+    "rx": "^4.1.0",
+    "sleep": "^3.0.1"
+  }
+}
