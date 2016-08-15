@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "install":"pm2 start processes.json && pm2 save"
   },
   "author": "Dyam Marcano <dyam.marcano@gmail.com>",
   "license": "MIT",
